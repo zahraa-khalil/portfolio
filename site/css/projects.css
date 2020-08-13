@@ -1,0 +1,80 @@
+.project-titles {
+  text-align: center;
+  /* color: rgb(255, 255, 255); */
+  color: black;
+  font-family: "raleway";
+}
+
+.project-overly{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+}
+
+
+.project-overly h6{
+  /* width: 12vw; */
+  padding: 10px 15px;
+  font-family: "raleway-bold";
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.233);
+}
+[class^=imghvr-] {
+  /* text-align: center; */
+  background-color: black;
+  color: white;
+  
+}
+[class^=imghvr-shutter-out-]:before{
+   background-color: rgb(83, 14, 51);
+}
+.project-container {
+  height: auto;
+  /* background-color: rgb(42, 42, 42); */
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.wed {
+  padding: 20px 15px;
+}
+figcaption button{
+  background-color: rgb(83, 14, 51);
+  border: none;
+  color: white;
+  padding: 6px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 6px 10px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.project-titles h1 {
+  font-weight: 700;
+  font-family: "raleway-bold";
+  font-size: 25pt;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .wed {
+    padding: 1px 15px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-width: 768px) {
+  .project-wrapper {
+    /* background-color: #2a2a2a; */
+  }
+  .wed {
+    padding: 11.5px 15px;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-width: 1024px) {
+   .wed {
+    padding: 16.6px 15px;
+  }
+}

@@ -1,0 +1,146 @@
+.about {
+  padding-top: 3rem;
+}
+.skills .row .options {
+  text-align: center;
+  margin: 0 auto;
+}
+.skills_bar {
+  margin-top: 3.3rem;
+}
+.skills_bar_col {
+  padding: 2rem 2rem;
+}
+
+.skills_avatar {
+  text-align: center;
+  padding-top: 0;
+}
+
+.skills_avatar p {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Cormorant Upright', serif;
+  font-weight: 700;
+}
+.hexagon {
+  display: inline-block;
+  transform: rotateZ(90deg);
+  position: relative;
+  /* background-color: #800080; */
+  background-color: #530e33;
+  text-align: left;
+
+  width: 100px;
+  height: 56px;
+  margin: 28.87px 0;
+}
+
+.hexagon i {
+  color: white;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  z-index: 9999;
+}
+
+.hexa-icon:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  font-size: 2em;
+  right: 31px;
+  transform: rotate(270deg) skew(15deg);
+}
+
+.cogs:before {
+  content: " \f085";
+}
+.bug:before {
+  content: " \f188";
+}
+.devices:before {
+  content: " \f5fc";
+}
+.seo:before {
+  content: " \f201";
+  font-size: 2.3em;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  /* border-bottom: 28.87px  solid #800080; */
+  border-bottom: 28.87px solid #530e33;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  /* border-top: 28.87px  solid #800080; */
+  border-top: 28.87px solid #530e33;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .skills_bar_col {
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-device-width: 575px) and (max-width: 768px) {
+  .skills_bar_col {
+    padding: 0;
+  }
+
+  .skills_bar {
+    margin-top: 90px;
+  }
+  .fa-2x {
+    font-size: 1.6em;
+    padding-top: 5px;
+  }
+  .skills_avatar p {
+    width: 90%;
+    font-size: 0.9em;
+  }
+  .skills_avatar p {
+  font-size: 16px;
+  text-align: justify;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-width: 1024px) {
+  
+  .skills_bar {
+    margin-top: 90px;
+  }
+  .skills_avatar p {
+   
+  font-size: 19px;
+  }
+}
+
+
+@media only screen and (min-device-width: 1326px) and (max-width: 1440px) {
+  .hexagon:before {
+    bottom: 100%;
+    width: 100px;
+    /* border-bottom: 28.87px  solid #800080; */
+    border-bottom: 28.87px solid #530e33;
+  }
+
+  .hexagon:after {
+    top: 100%;
+    width: 100px;
+    /* border-top: 28.87px  solid #800080; */
+    border-top: 28.87px solid #530e33;
+  }
+}

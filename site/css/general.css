@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+}
+.col {
+  flex-direction: column;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  font-family: 'Raleway';
+}
+hr {
+  border: 2px solid #5d535d;
+  width: 60px;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+
+.title {
+  display: flex;
+  justify-content: center;
+
+}
+.title h1{
+  font-weight: 700;
+  font-family: "raleway-bold";
+  font-size: 25pt;
+}
