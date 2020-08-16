@@ -14,14 +14,16 @@
 
 .skills_avatar {
   text-align: center;
-  padding-top: 0;
+  padding-top: 2em;
 }
 
-.skills_avatar p {
+.meccano{
+  font-size: 1.13rem; 
   text-align: center;
-  font-size: 1.2em;
+  font-weight: 600; 
+  letter-spacing: .005em; 
+  line-height: 1.40;
   font-family: 'Cormorant Upright', serif;
-  font-weight: 700;
 }
 .hexagon {
   display: inline-block;
@@ -30,7 +32,6 @@
   /* background-color: #800080; */
   background-color: #530e33;
   text-align: left;
-
   width: 100px;
   height: 56px;
   margin: 28.87px 0;
@@ -49,7 +50,7 @@
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   position: absolute;
-  font-size: 2em;
+  font-size: 2rem;
   right: 31px;
   transform: rotate(270deg) skew(15deg);
 }
@@ -64,8 +65,8 @@
   content: " \f5fc";
 }
 .seo:before {
-  content: " \f201";
-  font-size: 2.3em;
+  content: " \f002";
+  /* font-size: 2.3em; */
 }
 
 .hexagon:before,
@@ -82,13 +83,19 @@
   /* border-bottom: 28.87px  solid #800080; */
   border-bottom: 28.87px solid #530e33;
 }
-
+.w3-container{
+  font-size: .90rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
 .hexagon:after {
   top: 100%;
   width: 0;
   /* border-top: 28.87px  solid #800080; */
   border-top: 28.87px solid #530e33;
 }
+
+
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .skills_bar_col {
@@ -100,20 +107,17 @@
   .skills_bar_col {
     padding: 0;
   }
-
   .skills_bar {
     margin-top: 90px;
   }
   .fa-2x {
-    font-size: 1.6em;
+    /* font-size: 1.6em; */
     padding-top: 5px;
   }
   .skills_avatar p {
     width: 90%;
-    font-size: 0.9em;
   }
   .skills_avatar p {
-  font-size: 16px;
   text-align: justify;
   }
 }
@@ -122,10 +126,7 @@
   .skills_bar {
     margin-top: 90px;
   }
-  .skills_avatar p {
-   
-  font-size: 19px;
-  }
+ 
 }
 
 

@@ -11,10 +11,52 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  font-family: "Raleway", sans-serif;
 }
 
-*{
-  font-family: 'Raleway';
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  color: #7a0e48;
+  font-size: 7rem;
+  margin-top: 0.27em;
+  margin-bottom: 0.37em;
+  font-weight: 800;
+}
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: -1.37em;
+  margin-bottom: 1.97em;
+  color: #999999;
+  /* color: black; */
+}
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0.37em;
+  margin-bottom: 0.37em;
+}
+h5{
+  font-size: .9rem;
+  font-weight: 600;
+}
+p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.012em;
 }
 hr {
   border: 2px solid #5d535d;
@@ -22,15 +64,45 @@ hr {
   margin: auto;
   margin-bottom: 4rem;
 }
-
-
 .title {
   display: flex;
   justify-content: center;
-
 }
-.title h1{
-  font-weight: 700;
-  font-family: "raleway-bold";
-  font-size: 25pt;
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  h1 {
+    font-size: 2.4rem;
+    margin-top: 2.77em;
+    margin-bottom: 1.2rem;
+  }
+  h2 {
+    font-size: 1.57rem;
+  }
+  h3 {
+    font-size: 1.13rem;
+    margin-bottom: 5em;
+    color: black;
+    font-weight: 700;
+  }
+  h4 {
+    font-size: 1rem;
+    margin-top: 0.27em;
+    margin-bottom: 0.57em;
+  }
+  p {
+    font-size: 0.84rem;
+  }
+  .main-header a {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
 }

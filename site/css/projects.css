@@ -2,21 +2,16 @@
   text-align: center;
   /* color: rgb(255, 255, 255); */
   color: black;
-  font-family: "raleway";
 }
-
 .project-overly{
   position: absolute;
   top: 10px;
   left: 10px;
   text-align: center;
 }
-
-
-.project-overly h6{
-  /* width: 12vw; */
+.project-overly h5{
+  
   padding: 10px 15px;
-  font-family: "raleway-bold";
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.233);
 }
@@ -46,23 +41,19 @@ figcaption button{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 13px;
+  /* font-size: 13px; */
   margin: 6px 10px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.project-titles h1 {
-  font-weight: 700;
-  font-family: "raleway-bold";
-  font-size: 25pt;
-}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .wed {
     padding: 1px 15px;
   }
+
 }
 
 @media only screen and (min-device-width: 480px) and (max-width: 768px) {
