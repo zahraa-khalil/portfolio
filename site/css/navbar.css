@@ -28,7 +28,7 @@
 .block-parallax-1 .md-box {
   background-color: #07070c;
   position: relative;
-  height: 80vh;
+  height: 98vh;
 }
 .block-parallax-1 .md-box .nav {
   position: relative;
@@ -89,6 +89,7 @@
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 15px;
+  margin-top: 40px;
   /* width: auto; */
   background: transparent;
   color: rgb(131, 125, 129);
@@ -119,7 +120,7 @@
 }
 
 .header-btn:hover i {
-  padding-bottom: 15px;
+  padding-bottom: 55px;
 }
 
 @media only screen and (max-width: 768px) {
