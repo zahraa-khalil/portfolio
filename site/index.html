@@ -32,7 +32,7 @@
   <body>
     <header class="block-parallax-1">
       <div class="parallax-bg"></div>
-      <div class="md-box" style="height: 105vh;">
+      <div class="md-box">
           
         <header class="nav">
           <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
@@ -82,20 +82,24 @@
           </h1>
           <h3 class="text-flicker-in-glow">Frontend Developer</h3>
           <a href="#about" class="header-btn text-focus-in"
-            ><p>My Work</div></a
+            ><i class="fas fa-angle-double-down fa-2x"></i></a
           >
         </div>
       </div>
     </header>
 
     <!-- --------------------------- about --------------------------- -->
-    <section>
+    <section  id="about">
+      <br>
+      <br>
+      <br>
+      <br>
       <div
         class="about wow fadeInUp"
         data-wow-duration="4s"
         data-wow-offset="30"
         data-wow-iteration="1"
-        id="about"
+       
       >
         <div class="title">
           <h2>ABOUT</h2>
@@ -314,6 +318,10 @@
     </section>
 
     <div class="project-wrapper" id="projects">
+      <br>
+      <br>
+      <br>
+      <br>
       <div class="container project-container wow fadeInUp"  data-wow-duration="4s" data-wow-delay=".4s">
         <div class="row project-row">
           <div class="col-md-12 project-titles">
@@ -324,14 +332,16 @@
           <div class="col-md-6 project">
             <div class="row">
               <div class="col-md-6">
-                <figure class="imghvr-shutter-out-vert">
+                <figure class="imghvr-shutter-out-vert delarose-card">
                   <img src="./assets/devin-edwards-776950-unsplash.jpg" />
                   <div class="project-overly">
-                    <h5>Delaroze</h5>
+                    <h5>DelaRose</h5>
                   </div>
-                  <figcaption style="background-color:#252424; padding: 1rem;">
-                    <p>My first trial as an amature Frontend developer & I gave a try as a designer ;) <br>
-                        Fully responsive frontend page and developed using HTML, CSS and Bootstrap
+                  <figcaption class="delarose"
+                  style="background-color:#252424; padding: .8rem;">
+                    <h2>DelaRose</h2>
+                    <p>My first trial as an amature frontend developer & I gave a try as a designer ;). 
+                        Fully responsive frontend page & developed using HTML, CSS and Bootstrap
                         <button>Site</button>
                         </p>
                   </figcaption>
@@ -339,15 +349,17 @@
                 </figure>
               </div>
               <div class="col-md-6">
-                <figure class="imghvr-shutter-out-vert" >
+                <figure class="imghvr-shutter-out-vert album-card" >
                   <img src="./assets/tom-pumford-UxzqDyzqs8w-unsplash.jpg" />
                   <div class="project-overly">
                     <h5>Wedding Album</h5>
                   </div>
-                  <figcaption style="background-color:#252424; padding: 1rem;">
-                    <h4>Wedding Album</h4>
-                    <p>Freelance work <br>
-                    Personal wedding album. a great birthday present from a husband to his lovely wife <i class="fas fa-heart fa-1x" style="color: red;"></i><button>Site</button></p>
+                  <figcaption style="background-color:#252424; padding: .8rem;" class="album">
+                    <h2>Wedding Album <span style="font-size: 12.5px;">(freelance)</span></h2> 
+                    <p>
+                    Personal wedding album. a great birthday present from a husband to his lovely wife <i class="fas fa-heart fa-1x" style="color: red;"></i>
+                    <br>
+                    <button>Site</button></p>
                      
                   </figcaption>
                   <a href="http://olamostafa.com" target="_blank"></a>
@@ -356,12 +368,12 @@
                
               </div>
               <div class="col-md-12 wed">
-                <figure class="imghvr-shutter-out-vert">
+                <figure class="imghvr-shutter-out-vert fitness_card">
                   <img src="./assets/anastase-maragos-HyvE5SiKMUs-unsplash.jpg" />
                   <div class="project-overly">
                     <h5>Fitness</h5>
                   </div>
-                  <figcaption style="background-color:#252424; ">
+                  <figcaption style="background-color:#252424;" class="fitness">
                     <h2>Fitness</h2>
                     <p>Our first project at m3ntorship training, It was a collaboration between team members.
                       It was the first time for me to work remotely with a team and manage that on Github.
@@ -377,18 +389,21 @@
                 </figure>
               </div>
               <div class="col-md-12">
-                <figure class="imghvr-shutter-out-vert">
+                <figure class="imghvr-shutter-out-vert gh_card">
                   <img src="./assets/monitors.jpg" />
                   <div class="project-overly">
                     <h4>Greenhouse Monitor</h4>
                   </div>
-                  <figcaption style="background-color:#252424; padding: .3rem 1rem;" class="content_gh">
-                    <h2>Greenhouse Monitor</h2> NTI Graduation Project Degree: Excellent with Honours <br>
+                  <figcaption style="background-color:#252424; padding: 1rem;" class="gh_content">
+                    <h2>Greenhouse Monitor <span class="nti-desc">NTI Graduation Project</span></h2> 
+                    <h5> Degree: Excellent with Honours</h5>
 
                     <p>Web application that monitors plants in
                     greenhouses. The app is connected online with sensors that implanted in the greenhouses and reads temprature, 
                     Humidity, light and Mositure of the plants.
-                    The whole project was a collaboration between web developers team & the embedded systems team <button>github</button></p>
+                    The whole project was a collaboration between web developers team & the embedded systems team.
+                    </p>
+                    <button>github</button>
                     
                   </figcaption>
                   <a href="https://github.com/zahraa-khalil/GreenHouseProject" target="_blank"></a>
@@ -396,17 +411,24 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 pro-img right-side">
-            <figure class="imghvr-shutter-out-vert">
+          <div class="col-md-6 pro-img right-side ">
+            <figure class="imghvr-shutter-out-vert ghirass_card">
               <img src="./assets/tarikul-raana-joEooVOaq7o-unsplash.jpg" />
               <div class="project-overly">
                 <h5>Ghirass Charity</h5>
               </div>
-              <figcaption style="background-color:#252424;">
+              <figcaption style="background-color:#252424;" class="ghirass">
                 <h2>Ghirass Charity</h2>
-                <h4>M3ntorship project</h4>
-                <p style="text-align: left;">Technologies used: 
-                  <ul style="text-align: left;">
+                <!-- <h5>M3ntorship project</h5> -->
+                <p style="text-align: left;">
+                  <p>Ghirass Site is our final project at M3ntorship Training. The site was a collaboration between team members.
+                    by the end the site gifted to Ghirass Charity. 
+                    The project meant to be practice on React and Redux and Next js along with working with APIs.
+                    The site is responsive & SEO-friendly. 
+                    <br>
+                   The Site developed using: 
+                  </p>
+                  <ul class="ghirass_list" style="text-align: left;">
                     <li>React js</li>
                     <li>React Router</li>
                     <li>Tailwind</li>

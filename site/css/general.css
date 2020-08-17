@@ -60,7 +60,7 @@ p {
 }
 hr {
   border: 2px solid #5d535d;
-  width: 60px;
+  width: 55px;
   margin: auto;
   margin-bottom: 4rem;
 }
@@ -71,16 +71,16 @@ hr {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   h1 {
-    font-size: 2.4rem;
+    font-size: 2.7rem;
     margin-top: 2.77em;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
   }
   h2 {
     font-size: 1.57rem;
   }
   h3 {
-    font-size: 1.13rem;
-    margin-bottom: 5em;
+    font-size: 1.23rem;
+    margin-bottom: 3em;
     color: black;
     font-weight: 700;
   }
@@ -91,10 +91,6 @@ hr {
   }
   p {
     font-size: 0.84rem;
-  }
-  .main-header a {
-    width: 90%;
-    text-align: center;
   }
 }
 

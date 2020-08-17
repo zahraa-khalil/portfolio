@@ -3,26 +3,24 @@
   /* color: rgb(255, 255, 255); */
   color: black;
 }
-.project-overly{
+.project-overly {
   position: absolute;
   top: 10px;
   left: 10px;
   text-align: center;
 }
-.project-overly h5{
-  
+.project-overly h5 {
   padding: 10px 15px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.233);
 }
-[class^=imghvr-] {
+[class^="imghvr-"] {
   /* text-align: center; */
   background-color: black;
   color: white;
-  
 }
-[class^=imghvr-shutter-out-]:before{
-   background-color: rgb(83, 14, 51);
+[class^="imghvr-shutter-out-"]:before {
+  background-color: rgb(83, 14, 51);
 }
 .project-container {
   height: auto;
@@ -33,7 +31,7 @@
 .wed {
   padding: 20px 15px;
 }
-figcaption button{
+figcaption button {
   background-color: rgb(83, 14, 51);
   border: none;
   color: white;
@@ -46,26 +44,111 @@ figcaption button{
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.delarose h2 {
+  font-size: 1.24rem;
+}
+.delarose p {
+  font-size: 0.81rem;
 }
 
+.album h2 {
+  font-size: 1.24rem;
+}
+.album p {
+  font-size: 0.88rem;
+}
+.album button,
+.fitness button,
+.gh_content button {
+  margin-left: 0;
+}
+.ghirass_list {
+  font-size: 14px;
+}
+.gh_content h2 {
+  font-size: 1.7rem;
+}
+.nti-desc {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.gh_content h5 {
+  font-size: 0.89rem;
+}
+.gh_content p {
+  font-size: 0.83rem;
+}
+.fitness p {
+  font-size: 0.85rem;
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .wed {
     padding: 1px 15px;
   }
-
+  .fitness p {
+    font-size: 0.79rem;
+  }
+  .gh_content h2 {
+    font-size: 0rem;
+  }
+  .gh_content p{
+    font-size: 0.79rem;
+  }
+  .gh_content h5 {
+    font-size: 0.95rem;
+  }
+  .gh_card:hover {
+    height: 18rem;
+  }
+  .fitness_card:hover{
+    height: 27rem;
+  }
+  .ghirass_card:hover{
+    height: 35rem;
+  }
+  .nti-desc {
+    font-size: 22px;
+    font-weight: 600;
+  }
 }
 
-@media only screen and (min-device-width: 480px) and (max-width: 768px) {
-  .project-wrapper {
-    /* background-color: #2a2a2a; */
-  }
+@media only screen and (min-device-width: 480px) and (max-width: 769px) {
   .wed {
     padding: 11.5px 15px;
   }
+  
 }
-@media only screen and (min-device-width: 769px) and (max-width: 1024px) {
-   .wed {
-    padding: 16.6px 15px;
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .wed {
+    padding: 12px 15px;
+  }
+  .ghirass p,
+  .fitness p{
+    font-size: .76rem;
+  }
+  .fitness h2,
+  .ghirass h2,
+  .gh_content h2{
+    font-size: 1.6rem;
+  }
+    .fitness_card:hover{
+    height: 23rem;
+  }
+    .gh_card:hover {
+    height: 20rem;
+  }
+  .delarose-card:hover,
+  .album-card:hover{
+    height: 18rem;
+  }
+  .delarose button{
+    margin-left: 0px;
+  }
+  .album-card h5{
+    font-size: .4rem;
+    padding: 10px 2px;
   }
 }

@@ -85,57 +85,41 @@
 .main-header h1 {
   text-align: center;
 }
-.main-header a {
+.main-header a{
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 15px;
   /* width: auto; */
   background: transparent;
-  color: white;
+  color: rgb(131, 125, 129);
   border-radius: 7px;
   outline: none;
   display: inline-block;
   transition: all 0.5s;
   cursor: pointer;
   transition-duration: 0.7s;
-  border: 2px solid rgba(183, 180, 180, 0.83);
+  /* border: 2px solid rgb(230, 112, 112); */
   text-decoration: none;
 }
 
 .header-btn:hover {
-  background-color: rgba(0, 0, 0, 0);
-  color: rgb(255, 255, 255);
-  border: #a7a4a4;
+  color: rgb(87, 16, 49);
+  margin-top: 10px;
+  transition: all 0.5s;
 }
 .header-btn:active {
   background-color: #a7a4a4;
   color: #a7a4a4;
 }
-.header-btn p {
+.header-btn i {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.3s;
 }
 
-.header-btn p:after {
-  content: " \f103";
-  position: absolute;
-  opacity: 0;
-  top: 20px;
-  right: 24px;
-  transition: 0.7s;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-}
-
-.header-btn:hover p {
+.header-btn:hover i {
   padding-bottom: 15px;
-}
-
-.header-btn:hover p:after {
-  opacity: 1;
-  top: 27px;
 }
 
 @media only screen and (max-width: 768px) {
