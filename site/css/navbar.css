@@ -28,7 +28,7 @@
 .block-parallax-1 .md-box {
   background-color: #07070c;
   position: relative;
-  height: auto;
+  height: 80vh;
 }
 .block-parallax-1 .md-box .nav {
   position: relative;
