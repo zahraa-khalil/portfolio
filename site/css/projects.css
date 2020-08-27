@@ -9,6 +9,16 @@
   left: 10px;
   text-align: center;
 }
+
+
+.album-card:hover{
+    height: 27rem;
+  }
+
+  .fitness_card:hover{
+    height: 28rem;
+  }
+
 .project-overly h5 {
   padding: 10px 15px;
   border-radius: 10px;
@@ -64,6 +74,9 @@ figcaption button {
 .gh_content button {
   margin-left: 0;
 }
+  .gh_card:hover {
+    height: 47rem;
+  }
 .ghirass_list {
   font-size: 14px;
 }
@@ -101,10 +114,10 @@ figcaption button {
     font-size: 0.95rem;
   }
   .gh_card:hover {
-    height: 18rem;
+    height: 53rem;
   }
   .fitness_card:hover{
-    height: 27rem;
+    height: 40rem;
   }
   .ghirass_card:hover{
     height: 35rem;
@@ -113,6 +126,10 @@ figcaption button {
     font-size: 22px;
     font-weight: 600;
   }
+    .ghirass_card:hover,
+.ghirass:hover{
+  height: 66rem;
+}
 }
 
 @media only screen and (min-device-width: 480px) and (max-width: 769px) {
@@ -135,15 +152,18 @@ figcaption button {
     font-size: 1.6rem;
   }
     .fitness_card:hover{
-    height: 23rem;
+    height: 40rem;
   }
     .gh_card:hover {
-    height: 20rem;
+    height: 58rem;
   }
-  .delarose-card:hover,
+
   .album-card:hover{
-    height: 18rem;
+    height: 48rem;
   }
+    .delarose-card:hover{
+      height: 18rem;
+    }
   .delarose button{
     margin-left: 0px;
   }
@@ -151,4 +171,8 @@ figcaption button {
     font-size: .4rem;
     padding: 10px 2px;
   }
+  .ghirass_card:hover,
+.ghirass:hover{
+  height: 55rem;
+}
 }
